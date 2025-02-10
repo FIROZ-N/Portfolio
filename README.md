@@ -7,7 +7,7 @@ Welcome to my personal project portfolio! This repository showcases the projects
 ### 1. **Restaurant Website**
 **Description**: A simple yet interactive restaurant website where users can explore food items, see a list of meals, and rate their favorite dishes. Built using **HTML**, **CSS**, and a bit of **JavaScript**.
 
-- **Link**: [Restaurant Website](https://firoz-n.github.io/Restaurant/index.html#)
+- **Link**: [Restaurant Website](https://firoz-n.github.io/Restaurant/index.html#){:target="_blank"}
 - **Technologies Used**: HTML, CSS, JavaScript
 - **Features**:
   - Interactive user interface
@@ -19,7 +19,7 @@ Welcome to my personal project portfolio! This repository showcases the projects
 ### 2. **Headphone Store**
 **Description**: A product-based project designed to showcase various headphones with a clean interface. Built with **HTML**, **CSS**, and **JavaScript** for basic interactivity.
 
-- **Link**: [Headphone Store](https://firoz-n.github.io/HeadPhone-Store/)
+- **Link**: [Headphone Store](https://firoz-n.github.io/HeadPhone-Store/){:target="_blank"}
 - **Technologies Used**: HTML, CSS, JavaScript
 - **Features**:
   - Product listing page
@@ -31,7 +31,7 @@ Welcome to my personal project portfolio! This repository showcases the projects
 ### 3. **Social Media Links**
 **Description**: A minimalist social media link website that allows users to quickly visit popular social media platforms. Built using **HTML** and **CSS**.
 
-- **Link**: [Social Media Links](https://firoz-n.github.io/Social-Media-Links/)
+- **Link**: [Social Media Links](https://firoz-n.github.io/Social-Media-Links/){:target="_blank"}
 - **Technologies Used**: HTML, CSS
 - **Features**:
   - Social media icons that link to various platforms
