@@ -5,15 +5,15 @@
 }
 
 :root {
-    --body-color: purple;
-    --navbar-bg-color: purple;
-    --link-text-color: lavender;
+    --body-color: white;
+    --navbar-bg-color: white;
+    --link-text-color: black;
     --link-hover-color: white;
     --link-font-size: small;
     --dev-name-size: xxx-large;
     --dev-info-size: large;
     --box-bg-color: rgba(102, 205, 171, 0.712);
-    --box-text-color: lavender;
+    --box-text-color: black;
     --about-h1-size: xx-large;
     --label-size-1: large;
 }
@@ -444,7 +444,7 @@ button img {
 
 .left h2 {
     text-align: left;
-    padding: 5px 0px;
+    padding: 5px 10px;
     border-radius: 8px;
     margin-bottom: 10px;
     width: fit-content;
@@ -453,8 +453,8 @@ button img {
 
 .left p {
     text-align: left;
-    padding: 0 0 20 0;
-    color: white;
+    padding: 10px;
+    color: darkslategrey;
     opacity: 50%;
     margin-bottom: 20px;
 }
@@ -526,7 +526,7 @@ form {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.452);
     text-align: center;
 }
 
@@ -569,7 +569,7 @@ form input[type="submit"] {
     padding: 10px;
     font-size: 1rem;
     color: #fff;
-    background-color: var(--navbar-bg-color);
+    background-color: #007bff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
