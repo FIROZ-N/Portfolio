@@ -44,7 +44,7 @@ function scrollReveal() {
     const items = document.querySelectorAll(".hide");
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
-            if(entry.isIntersecting) {
+            if (entry.isIntersecting) {
                 entry.target.classList.remove("hide");
             } else {
                 entry.target.classList.add("hide");
@@ -56,3 +56,27 @@ function scrollReveal() {
 }
 
 scrollReveal();
+
+function clearForm(event) {
+    event.preventDefault(); // Prevent default form submission behavior
+
+    let form = event.target;
+
+    // Send the form data using fetch
+    fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            alert("Message sent successfully!");
+            form.reset(); // Clear form after successful submission
+        } else {
+            alert("Oops! Something went wrong.");
+        }
+    }).catch(error => {
+        alert("Error sending message. Please try again.");
+    });
+}
