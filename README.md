@@ -1,6 +1,8 @@
 # Project Portfolio
 
-Welcome to my personal project portfolio! This repository showcases the projects I've worked on, highlighting my skills in **HTML**, **CSS**, **JavaScript**, and **Web Development**. Each project demonstrates different aspects of web development and UI/UX design.
+Welcome to my personal project portfolio! This repository showcases the projects I've worked on, highlighting my skills in **HTML**, **CSS**, **JavaScript**, and **Web Development**. Each project demonstrates different aspects of web development and UI/UX design. 
+
+live website: https://firoz-n.github.io/Portfolio/
 
 ## Projects
 
@@ -73,7 +75,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Thank you for visiting my project portfolio! Feel free to explore and contribute. 😊
+
 ```
+
+
 
 ### Steps to Customize:
 
