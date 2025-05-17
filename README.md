@@ -44,7 +44,7 @@ live website: https://firoz-n.github.io/Portfolio/
 ### 4. **Netflix Frontend Clone**
 **Description**: A responsive Netflix homepage clone built using **HTML**, **CSS**, and **Google Icons**. This is a frontend-only project created for learning and UI replication.
 
-- **Link**: [Netflix Clone](https://github.com/FIROZ-N/Netflix-clone-simple-pages)
+- **Link**: [Netflix Clone](https://68287ccf55910bc4ef0c6bb9--net4126.netlify.app/user/register)
 - **Technologies Used**: HTML, CSS, Google Fonts & Icons  
 - **Features**:
   - Responsive layout with movie thumbnails and sections  
