@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIROZ MUHAMMED N | WEB DEVELOPER</title>
+    <link rel="shortcut icon" href="../icons/bgless-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <button class="chooseColor" onclick="chooseColor()">🖊</button>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="navbar-items">
+            <div class="navbar-logo">
+                <a href="../../index.html"><img src="../icons/bgless-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-links" id="navbar-links">
+                <ul class="links" id="links">
+                    <li class="link-item" id="linkItem">
+                        <a href="#" class="link" id="link">Home</a>
+                    </li>
+                    <li class="link-item" id="linkItem">
+                        <a href="#project" class="link" id="link">Projects</a>
+                    </li>
+                    <li class="link-item" id="linkItem">
+                        <a href="#skill" class="link" id="link">Skills</a>
+                    </li>
+                    <li class="link-item" id="linkItem">
+                        <a href="#about" class="link" id="link">About</a>
+                    </li>
+                    <li class="link-item" id="linkItem">
+                        <a href="#connect" class="link" id="link">Connect</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle-open">
+                <button class="close" onclick="closeBtn()" id="close"><img src="../icons/close.png"
+                        alt="close icon"></button>
+                <button class="open" onclick="openBtn()"><img src="../icons/menus.png" alt="open icon"></button>
+            </div>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content hide" id="main-content">
+        <div class="contents">
+            <div class="content">
+                <h1 class="dev-name"><span class="dv-sp">|</span>Firoz muhammed n</h1>
+                <p class="dev-info"><span class="dv-sp">|</span> Web Developer</p>
+            </div>
+            <div class="content-img">
+                <img src="../img/home.png" alt="dev-img">
+            </div>
+        </div>
+    </div>
+    <!-- Project -->
+    <h1 class="main-heads" id="project">My Projects</h1>
+    <div class="project-container hide">
+        <div class="project-contents hide">
+            <div class="project-box" id="projectBox">
+                <a href="https://firoz-n.github.io/Restaurant/index.html#" target="_blank">
+                    <img src="../img/project-1.png" alt="project-1-image">
+                    <div class="project-info">My First Html, Css project ! A simple Restaurant project ... Where user
+                        can explore, see food list and rate etc ... </div>
+                </a>
+            </div>
+
+            <div class="project-box" id="projectBox">
+                <a href="https://firoz-n.github.io/HeadPhone-Store/" target="_blank">
+                    <img src="../img/project-2.png" alt="project-2-image">
+                    <div class="project-info">Product based project by adding a small amount of js with clean looking
+                        interface. html, css, js</div>
+                </a>
+            </div>
+            <div class="project-box" id="projectBox">
+                <a href="https://firoz-n.github.io/Social-Media-Links/" target="_blank">
+                    <img src="../img/project-3.png" alt="project-3-image">
+                    <div class="project-info">Only html and css ... you can choose your social media or any popular
+                        media with one click ... no more typing !</div>
+                </a>
+            </div>
+            <div class="project-box" id="projectBox">
+                <a href="https://checklistsmc.netlify.app/" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="project-4-image">
+                    <div class="project-info">SMC Trading Dashboard is a simple, browser-based trading journal to track trades, wins, losses, and breakevens. It visualizes profit/loss with a mini Chart.js graph. All data is stored locally—no server needed. Perfect for casual traders who want an easy, portable way to manage and review their trades.</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Container -->
+    <h1 class="main-heads" id="skill">Skills</h1>
+    <div class="skills-container hide">
+        <div class="skills hide">
+            <div class="skill">
+                <img src="../img/html.png" alt="skill-1">
+                <p class="skill-info">HTML <br><span>98%</span></p>
+            </div>
+            <div class="skill">
+                <img src="../img/css.png" alt="skill-1">
+                <p class="skill-info">CSS <br><span>95%</span></p>
+            </div>
+            <div class="skill">
+                <img src="../img/js.png" alt="skill-1">
+                <p class="skill-info">JavaScript <br><span>85%</span></p>
+            </div>
+            <div class="skill">
+                <img src="../img/react.png" alt="skill-1">
+                <p class="skill-info">React Js <br><span>80%</span></p>
+            </div>
+            <div class="skill">
+                <img src="../img/node.jpg" alt="skill-1">
+                <p class="skill-info">Node Js <br><span>60%</span></p>
+            </div>
+            <div class="skill">
+                <img src="../img/mongo.png" alt="skill-1">
+                <p class="skill-info">Mongo DB <br><span>75%</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <h1 class="main-heads" id="about">About Me</h1>
+    <div class="about-container hide">
+        <div class="about hide">
+            <div class="left">
+                <h2>About Me</h2>
+                <p class="hide"><span>BSc Computer Science Student | Aspiring Full-Stack Developer</span> <br> I'm a
+                    passionate self-learner on a
+                    journey to master web development, with a goal of becoming a skilled full-stack developer. Currently
+                    exploring the MERN stack and taking the first steps as a beginner in coding. Excited to learn, grow,
+                    and tackle challenges along the way.</p>
+                <h2>Education</h2>
+                <p>
+                    <span><strong>Bachelor of Science in Computer Science</strong></span> <br>
+                    College of Applied Science (IHRD) - Trivandrum, India <br>
+                    2022 - 2025 <br>
+                    <span><strong>Higher Secondary Education in Computer Science</strong></span><br>
+                    Government Boys Higher Secondary School - Neyyattinkara, India <br>
+                    2020 - 2022
+                </p>
+                <a href="../CV-FIROZ.pdf" download="CV-FIROZ.pdf">
+                    Download CV <img src="../img/cv.png" alt="cv">
+                </a>
+            </div>
+            <div class="right">
+                <img src="../img/user.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <h1 class="main-heads" id="connect">contact</h1>
+    <div class="contact-section hide">
+        <div class="contact">
+            <form method="post" onsubmit="clearForm(event)" action="https://formspree.io/f/xvgzqnje">
+                <div class="set">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="set">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="set">
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+                <input type="submit" value="send">
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>Connect with me:</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/firoz-mohd-n" target="_blank" aria-label="LinkedIn">
+                    <img src="../img/link.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:firoshkhan4126@gmail.com" target="_blank" aria-label="Email">
+                    <img src="../img/maill.png" alt="Email">
+                </a>
+                <a href="https://github.com/FIROZ-N" target="_blank" aria-label="GitHub">
+                    <img src="../img/git.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../backend/js/script.js"></script>
+</body>
+
+</html>
