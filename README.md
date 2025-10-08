@@ -41,14 +41,14 @@ live website: https://firoz-n.github.io/Portfolio/
   
 ---
 
-### 4. **Netflix Frontend Clone**
-**Description**: A responsive Netflix homepage clone built using **HTML**, **CSS**, and **Google Icons**. This is a frontend-only project created for learning and UI replication.
+### 4. **SMC Trading Checklist**
+**Description**: SMC Trading Dashboard is a simple, browser-based trading journal to track trades, wins, losses, and breakevens. It visualizes profit/loss with a mini Chart.js graph. All data is stored locally—no server needed. Perfect for casual traders who want an easy, portable way to manage and review their trades.
 
-- **Link**: [Netflix Clone](https://firoz-n.github.io/Netflix-clone-simple-pages/)
+- **Link**: [Netflix Clone]([https://firoz-n.github.io/Netflix-clone-simple-pages/](https://checklistsmc.netlify.app/))
 - **Technologies Used**: HTML, CSS, Google Fonts & Icons  
 - **Features**:
-  - Responsive layout with movie thumbnails and sections  
-  - Styled login and registration pages  
+  - Responsive layout
+  - Styled User Interface and pages  
   - Clean folder structure with `index.html` as the main entry point
 
 ---
