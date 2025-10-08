@@ -44,7 +44,7 @@ live website: https://firoz-n.github.io/Portfolio/
 ### 4. **SMC Trading Checklist**
 **Description**: SMC Trading Dashboard is a simple, browser-based trading journal to track trades, wins, losses, and breakevens. It visualizes profit/loss with a mini Chart.js graph. All data is stored locally—no server needed. Perfect for casual traders who want an easy, portable way to manage and review their trades.
 
-- **Link**: [SMC Trading Checklist](https://checklistsmc.netlify.app/))
+- **Link**: [SMC Trading Checklist](https://checklistsmc.netlify.app/)
 - **Technologies Used**: HTML, CSS, Google Fonts & Icons  
 - **Features**:
   - Responsive layout
