@@ -52,6 +52,18 @@ live website: https://firoz-n.github.io/Portfolio/
   - Clean folder structure with `index.html` as the main entry point
 
 ---
+  
+### 5. **Netflix Clone (Not Responsive will update soon)**
+**Description**: A visually appealing Netflix Clone that replicates the look and feel of Netflix’s homepage using only HTML and CSS. The design includes movie thumbnails, category sections, and a modern dark theme layout, giving it a professional streaming platform appearance.
+
+- **Link**: [Netflix Clone](https://nettflixx-cloneee.netlify.app/)
+- **Technologies Used**: HTML, CSS, Google Fonts & Icons  
+- **Features**:
+  - Clean and modern Netflix-style UI
+  - Responsive layout for all devices
+  - Smooth hover effects and movie grid sections
+
+---
 
 ## Getting Started
 
